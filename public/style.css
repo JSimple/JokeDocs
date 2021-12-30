@@ -1,0 +1,10 @@
+.a-table-container{
+    display:flex;
+}
+.a-table{
+    flex-grow: 1;
+    height: 100px;
+}
+.a-table + .a-table{
+    margin-left: 2%;
+}
